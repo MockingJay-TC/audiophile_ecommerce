@@ -8,7 +8,7 @@ interface ParentCompProps {
 
 const Layout: React.FC<ParentCompProps> = ({ childComp }) => {
   return (
-    <div>
+    <div className="font-manrope w-full">
       <Navbar />
       {childComp}
       <Footer />
